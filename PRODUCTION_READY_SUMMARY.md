@@ -108,7 +108,7 @@ These are automatically ignored by `.gitignore`:
 
 ### 1. Initialize Git Repository (if not already)
 ```bash
-cd /home/z/my-project
+cd /home/username/project-name
 git init
 ```
 
@@ -131,14 +131,14 @@ git commit -m "feat: initial commit - loan application classification system
 
 ### 4. Create GitHub Repository
 1. Go to [GitHub](https://github.com/new)
-2. Create a new repository (e.g., `loan-application-system`)
+2. Create a new repository (e.g., `Loan-Application-Classification`)
 3. Don't initialize with README (you already have one)
 4. Copy the repository URL
 
 ### 5. Push to GitHub
 ```bash
 # Add remote
-git remote add origin https://github.com/YOUR_USERNAME/loan-application-system.git
+git remote add origin https://github.com/YOUR_USERNAME/Loan-Application-Classification.git
 
 # Push to main branch
 git branch -M main
@@ -289,6 +289,11 @@ Your project meets all success criteria:
 ---
 
 **Project Status**: ✅ **PRODUCTION READY**
-**Last Updated**: 02-02-2026
+**Last Updated**: 03-02-2026
 **Version**: 1.0.0
 **License**: AGPL v3.0
+
+---
+
+
+Happy coding! 🎉

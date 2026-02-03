@@ -34,6 +34,9 @@ A modern, AI-powered loan application system built with Next.js 16, featuring au
 git clone https://github.com/jakegithub24/Loan-Application-Classification.git
 cd Loan-Application-Classification
 
+# Use node 18
+nvm use 18
+
 # Install dependencies
 bun install
 
@@ -42,6 +45,9 @@ cp .env.example .env
 
 # Initialize the database
 bun run db:push
+
+# Use node 20
+nvm use 20
 
 # Start development server
 bun run dev
@@ -138,16 +144,16 @@ loan-application-system/
 ### 1. Application Submission
 
 Users fill out a comprehensive loan application form with:
-- **Personal Information**: Name, Email, Phone
-- **Loan Details**: Amount, Purpose
-- **Financial Information**: Income, Credit Score, Monthly Debt
-- **Employment Information**: Status, Duration
+- **Personal Information**: Name, email, phone
+- **Loan Details**: Amount, purpose
+- **Financial Information**: Income, credit score, monthly debt
+- **Employment Information**: Status, duration
 
 ### 2. AI Classification
 
 The system uses LLM to:
-- **Categorize loan type**: Personal, Business, Education, Mortgage, Auto
-- **Assess risk level**: Low, Medium, High
+- **Categorize loan type**: personal, business, education, mortgage, auto
+- **Assess risk level**: low, medium, high
 - **Calculate risk score**: 0-100 based on multiple factors
 - **Provide analysis**: Detailed explanation of the assessment
 
@@ -194,7 +200,7 @@ Submit a new loan application.
 {
   "applicantName": "John Doe",
   "applicantEmail": "john@example.com",
-  "applicantPhone": "+1 234 567 8900",
+  "applicantPhone": "123456789",
   "loanAmount": "50000",
   "loanPurpose": "Home purchase",
   "annualIncome": "75000",
@@ -382,7 +388,7 @@ bun run tsc --noEmit
 - **[LOAN_SYSTEM_README.md](./LOAN_SYSTEM_README.md)** - Detailed system documentation
 - **[STATUS_MANAGEMENT_GUIDE.md](./STATUS_MANAGEMENT_GUIDE.md)** - Status management guide
 - **[CONTRIBUTING.md](./CONTRIBUTING.md)** - Contribution guidelines
-- **[LICENSE](./LICENSE)** - AGPL v3.0 License
+- **[LICENSE](./LICENSE)** - AGPL v3.0
 
 ## 🤝 Contributing
 
@@ -425,4 +431,4 @@ For support, email support@example.com or open an issue in the repository.
 
 ---
 
-Built with ❤️ by [jakegithub24](https://github.com/jakegithub24).
+Built with ❤️ by [jakegithub24](https://github.com/jakegithub24)

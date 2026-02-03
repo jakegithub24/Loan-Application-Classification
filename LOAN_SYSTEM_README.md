@@ -249,6 +249,7 @@ Potential improvements:
 
 AGPL v3.0
 
+
 ## 👨‍💻 Development
 
 ```bash
